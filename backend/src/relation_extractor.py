@@ -33,7 +33,13 @@ def load_custom_verbs(file_path):
     except json.JSONDecodeError:
         print(f"JSON 파일 형식이 올바르지 않습니다: {file_path}")
 
-def extract_verbs(sentence, not_verbs, yes_verbs):
+def normalize_verbs(verbs, verb_mapping):
+    """
+    Normalize verbs based on a provided mapping.
+    """
+    return [verb_mapping.get(verb, verb) for verb in verbs]
+
+def extract_verbs(sentence, not_verbs, yes_verbs, verb_mapping=None):
     tagger = Tagger(API.KKMA)
     analyzed = tagger(sentence)
     verbs = []
@@ -61,7 +67,10 @@ def extract_verbs(sentence, not_verbs, yes_verbs):
     custom_verbs = [entry[0] for entry in KDict.getItems() if entry[1] == POS.VV]
     verbs.extend([verb for verb in custom_verbs if verb in sentence])
 
-    return list(set(verbs))  # 중복 제거 후 반환
+    unique_verbs = list(set(verbs))
+    if verb_mapping:
+        return normalize_verbs(unique_verbs, verb_mapping)
+    return unique_verbs
 
 # KoalaNLP 종료
 def cleanup():

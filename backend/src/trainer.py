@@ -139,7 +139,7 @@ class Trainer:
         
         # 최고 성능 모델 저장
         if is_best:
-            best_path = self.save_dir / 'best_model.pt'
+            best_path = self.save_dir / '(v1)hgnn_data.pt'
             torch.save(checkpoint, best_path)
             self.logger.info(f'Best model saved: {best_path}')
 
