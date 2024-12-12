@@ -4,9 +4,9 @@
 FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 사용자에게 직관적인 방식으로 경제 관련 정보를 제공하는 시스템입니다. 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
 ---
-![image](https://github.com/user-attachments/assets/5f3fa086-cb5b-46d8-acde-3a3a12d1741d)
 
 ## 시스템 아키텍처
+![image](https://github.com/user-attachments/assets/5f3fa086-cb5b-46d8-acde-3a3a12d1741d)
 ### 1. **FastAPI (백엔드)**
 - **기사 데이터 수집 및 전처리**
   - 뉴스 기사를 웹에서 크롤링하여 데이터 수집.
