@@ -1,4 +1,4 @@
-# FinWise
+#### FinWise
 ## 💻 Tech Stack
 
 ### **Backend**
