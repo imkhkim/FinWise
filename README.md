@@ -1,8 +1,18 @@
 # FinWise
 
 ## 프로젝트 소개
-FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 사용자에게 직관적인 방식으로 경제 관련 정보를 제공하는 시스템입니다. 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
+FinWise는 Linear Hyper=GNN을 이용하여 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
+## 크롬 확장 프로그램
+FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
+
+### 팀원 목록
+- soosookentelmanis
+- imkhkim
+- rosey418
+- leejoon2067
+- ntbboi
+- csihyeon9
 ---
 
 ## 시스템 아키텍처
@@ -48,17 +58,6 @@ FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 
 ---
 
-## 크롬 확장 프로그램
-Fin￦i$E 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 소속 팀원들에 의해 개발되었습니다.
-
-### 팀원 목록
-- soosookentelmanis
-- imkhkim
-- rosey418
-- leejoon2067
-- ntbboi
-- csihyeon9
-
 ### 사용 방법
 1. 크롬 확장 프로그램 관리 페이지 열기.
 2. "개발자 모드" 활성화.
@@ -68,7 +67,7 @@ Fin￦i$E 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 
 ---
 
 ## FastAPI
-FastAPI는 Fin￦i$E 백엔드의 주요 프레임워크로, 빠르고 직관적인 API 설계를 제공합니다.
+FastAPI는 FinWise 백엔드의 주요 프레임워크로, 빠르고 직관적인 API 설계를 제공합니다.
 
 ### 사용 방법
 #### Ubuntu 22.04 LTS에서 Certbot을 이용한 HTTPS 인증서 발급
