@@ -37,7 +37,7 @@ FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨�
 <table>
   <tbody>
     <tr>
-      <td align="center"><b>쑤쑤</b><a href="https://github.com/soosookentelmanis"><img src="https://avatars.githubusercontent.com/u/150493527?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 권수현</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/soosookentelmanis"><img src="https://avatars.githubusercontent.com/u/150493527?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 권수현</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/imkhkim"><img src="https://avatars.githubusercontent.com/u/101717060?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 김금환</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/rosey418"><img src="https://avatars.githubusercontent.com/u/126850666?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 박서현</b></sub></a><br /></td>
      <tr/>
