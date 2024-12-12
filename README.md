@@ -11,6 +11,7 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 
 ## 크롬 확장 프로그램
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
+
 <table>
   <tbody>
     <tr>
