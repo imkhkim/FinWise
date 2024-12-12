@@ -52,12 +52,12 @@ FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 Fin￦i$E 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 소속 팀원들에 의해 개발되었습니다.
 
 ### 팀원 목록
-- @soosookentelmanis
-- @imkhkim
-- @rosey418
-- @leejoon2067
-- @ntbboi
-- @csihyeon9
+- soosookentelmanis
+- imkhkim
+- rosey418
+- leejoon2067
+- ntbboi
+- csihyeon9
 
 ### 사용 방법
 1. 크롬 확장 프로그램 관리 페이지 열기.
