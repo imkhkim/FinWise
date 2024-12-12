@@ -30,7 +30,8 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
-![image](https://github.com/user-attachments/assets/c1aae9a5-aa8b-41fd-addf-bb1ae7a8fd53) ## Team
+![image](https://github.com/user-attachments/assets/56c42a1c-ce62-4a06-905a-49335d9004c0)
+## Team
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
 
 <table>
