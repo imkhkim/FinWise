@@ -1,5 +1,9 @@
 # FinWise
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcsihyeon9%2FKU_INISW_5th_G1_FinWise&count_bg=%23E7FFD4&title_bg=%23000000&icon=&icon_color=%233BFF34&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+![image](https://github.com/user-attachments/assets/c1aae9a5-aa8b-41fd-addf-bb1ae7a8fd53)
+
+
 ## 프로젝트 소개
 FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
@@ -8,7 +12,7 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 ## 크롬 확장 프로그램
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
 
-### 팀원 목록
+### "The Finest Team Members who set a Benchmark of Excellence."
 - soosookentelmanis
 - imkhkim
 - rosey418
@@ -168,7 +172,7 @@ npm start
 
 ---
 
-## 기여 방법
+## plus-alpha
 1. 레포지토리를 포크합니다.
 2. 새로운 브랜치를 생성합니다 (`git checkout -b feature/새로운기능`).
 3. 변경 사항을 커밋합니다 (`git commit -m 'Add 새로운기능'`).
