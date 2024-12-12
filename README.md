@@ -11,15 +11,19 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 
 ## 크롬 확장 프로그램
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
-
-### "The Finest Team Members who set a Benchmark of Excellence."
-- soosookentelmanis
-- imkhkim
-- rosey418
-- leejoon2067
-- ntbboi
-- csihyeon9
----
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : soosookentelmanis</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : imkhkim</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>FE 팀원 : rosey418</b></sub></a><br /></td>
+     <tr/>>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 팀원 : leejoon2067</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 팀원 : ntbboi</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 팀원 : csihyeon9</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/9c546fbf-ac15-4f7d-9ea6-85be1222f5e9)
