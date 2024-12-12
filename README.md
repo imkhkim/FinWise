@@ -1,5 +1,5 @@
 # FinWise
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcsihyeon9%2FKU_INISW_5th_G1_FinWise&count_bg=%23E7FFD4&title_bg=%23000000&icon=&icon_color=%233BFF34&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ## 프로젝트 소개
 FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
