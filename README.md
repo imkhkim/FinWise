@@ -119,7 +119,7 @@ React와 Vite 기반으로 설계된 프론트엔드는 빠른 개발 환경과 
 ---
 
 ## 사용 기술
-- **백엔드**: FastAPI, Python, KoalaNLP, HGNN, TF-IDF, KeyBERT, DeBERTa
+- **백엔드**: FastAPI, Python(3.8.10), KoalaNLP, HGNN, TF-IDF, KeyBERT, DeBERTa, Java(21)
 - **데이터베이스**: MongoDB
 - **프론트엔드**: React, D3.js
 - **크롬 확장 프로그램**: HTML, JavaScript, CSS
