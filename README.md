@@ -1,5 +1,29 @@
 # FinWise
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcsihyeon9%2FKU_INISW_5th_G1_FinWise&count_bg=%23E7FFD4&title_bg=%23000000&icon=&icon_color=%233BFF34&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+## 💻 Tech Stack
+
+### **Backend**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python%203.8.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![KoalaNLP](https://img.shields.io/badge/KoalaNLP-FF4500?style=for-the-badge)
+![HGNN](https://img.shields.io/badge/HGNN-4CAF50?style=for-the-badge)
+![TF-IDF](https://img.shields.io/badge/TF--IDF-FFDD44?style=for-the-badge)
+![KeyBERT](https://img.shields.io/badge/KeyBERT-8E44AD?style=for-the-badge)
+![DeBERTa](https://img.shields.io/badge/DeBERTa-1E90FF?style=for-the-badge)
+![JAVA](https://img.shields.io/badge/Java%2021-007396?style=for-the-badge&logo=java&logoColor=white)
+
+### **Database**
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### **Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
+
+### **Chrome Extension**
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 ![image](https://github.com/user-attachments/assets/c1aae9a5-aa8b-41fd-addf-bb1ae7a8fd53)
 
@@ -9,7 +33,7 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
-## 크롬 확장 프로그램
+## 🦹‍ Team
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
 
 <table>
