@@ -5,6 +5,8 @@ FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 
 ## 시스템 아키텍처
 프로젝트는 다음과 같은 주요 구성 요소로 이루어져 있습니다:
+![image](https://github.com/user-attachments/assets/9b572a30-b690-4fa9-971e-f1e32d4e581e)
+
 
 ### 1. **FastAPI (Backend)**
 - **기사 데이터 수집 및 전처리**
@@ -41,6 +43,56 @@ FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 
 4. **크롬 확장 프로그램**
    - 사용자가 읽고 있는 기사를 분석하고 관련 그래프 데이터를 제공.
+
+## Chrome Extension for Fin￦i$E Services
+
+Developed by Soohyun Kwon, Keumhwan Kim, Seohyun Park, Junhyeok Lee, Changhee Cho, and Sihyun Cha from the 5th cohort of Korea University INISW Academy.
+
+### Usage
+1. Open the Chrome Extensions management page.
+2. Enable "Developer mode".
+3. Select "Load unpacked".
+4. Choose the folder.
+
+### License
+MIT License.
+
+## FastAPI for Fin￦i$E Services
+
+Developed by Soohyun Kwon, Keumhwan Kim, Seohyun Park, Junhyeok Lee, Changhee Cho, and Sihyun Cha from the 5th cohort of Korea University INISW Academy.
+
+### Usage
+#### Obtain an HTTPS certificate using Let's Encrypt's Certbot in an Ubuntu 22.04 LTS environment.
+
+#### Install Docker
+```bash
+sudo apt update
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+#### Build the Docker Image
+```bash
+docker build -t finwise-backend .
+```
+
+#### Run the Container
+```bash
+docker run -d --name finwise-backend -p 8000:8000 -v /etc/letsencrypt:/etc/letsencrypt finwise-backend
+```
+
+### License
+MIT License.
+
+## React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- `@vitejs/plugin-react` uses Babel for Fast Refresh
+- `@vitejs/plugin-react-swc` uses SWC for Fast Refresh
 
 ## 프로젝트 구조
 ```
