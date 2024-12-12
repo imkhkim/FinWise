@@ -4,20 +4,10 @@
 FinWise는 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 사용자에게 직관적인 방식으로 경제 관련 정보를 제공하는 시스템입니다. 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
 ---
-```
-Group1:
-@soosookentelmanis
-@imkhkim
-@rosey418
-@leejoon2067
-@ntbboi
-@csihyeon9
-```
-
----
 
 ## 시스템 아키텍처
-![image](https://github.com/user-attachments/assets/5f3fa086-cb5b-46d8-acde-3a3a12d1741d)
+![image](https://github.com/user-attachments/assets/9c546fbf-ac15-4f7d-9ea6-85be1222f5e9)
+
 ### 1. **FastAPI (백엔드)**
 - **기사 데이터 수집 및 전처리**
   - 뉴스 기사를 웹에서 크롤링하여 데이터 수집.
@@ -59,7 +49,15 @@ Group1:
 ---
 
 ## 크롬 확장 프로그램
-FinWise 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 소속 권수현, 김금환, 박서현, 이준혁, 조창희, 차시현에 의해 개발되었습니다.
+Fin￦i$E 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 소속 팀원들에 의해 개발되었습니다.
+
+### 팀원 목록
+- @soosookentelmanis
+- @imkhkim
+- @rosey418
+- @leejoon2067
+- @ntbboi
+- @csihyeon9
 
 ### 사용 방법
 1. 크롬 확장 프로그램 관리 페이지 열기.
@@ -70,7 +68,7 @@ FinWise 크롬 확장 프로그램은 한국대학교 INISW 아카데미 5기 �
 ---
 
 ## FastAPI
-FastAPI는 FinWise 백엔드의 주요 프레임워크로, 빠르고 직관적인 API 설계를 제공합니다.
+FastAPI는 Fin￦i$E 백엔드의 주요 프레임워크로, 빠르고 직관적인 API 설계를 제공합니다.
 
 ### 사용 방법
 #### Ubuntu 22.04 LTS에서 Certbot을 이용한 HTTPS 인증서 발급
@@ -130,7 +128,7 @@ React와 Vite 기반으로 설계된 프론트엔드는 빠른 개발 환경과 
 ---
 
 ## 사용 기술
-- **백엔드**: FastAPI, Python(3.8.10), KoalaNLP, HGNN, TF-IDF, KeyBERT, DeBERTa, Java(21)
+- **백엔드**: FastAPI, Python, KoalaNLP, HGNN, TF-IDF, KeyBERT, DeBERTa
 - **데이터베이스**: MongoDB
 - **프론트엔드**: React, D3.js
 - **크롬 확장 프로그램**: HTML, JavaScript, CSS
