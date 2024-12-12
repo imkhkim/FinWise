@@ -1,5 +1,4 @@
 # FinWise
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcsihyeon9%2FKU_INISW_5th_G1_FinWise&count_bg=%23E7FFD4&title_bg=%23000000&icon=&icon_color=%233BFF34&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ## 💻 Tech Stack
 
 ### **Backend**
@@ -24,16 +23,14 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
-![image](https://github.com/user-attachments/assets/c1aae9a5-aa8b-41fd-addf-bb1ae7a8fd53)
-
+---
 
 ## 프로젝트 소개
 FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, 분류, 그리고 시각화하여 
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
-## 🦹‍ Team
+![image](https://github.com/user-attachments/assets/c1aae9a5-aa8b-41fd-addf-bb1ae7a8fd53) ## Team
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
 
 <table>
