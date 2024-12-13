@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python%203.8.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![KoalaNLP](https://img.shields.io/badge/KoalaNLP-FF4500?style=for-the-badge)
-![HGNN](https://img.shields.io/badge/HGNN-4CAF50?style=for-the-badge)
+![Hyper-GNN](https://img.shields.io/badge/HGNN-4CAF50?style=for-the-badge)
 ![TF-IDF](https://img.shields.io/badge/TF--IDF-FFDD44?style=for-the-badge)
 ![KeyBERT](https://img.shields.io/badge/KeyBERT-8E44AD?style=for-the-badge)
 ![DeBERTa](https://img.shields.io/badge/DeBERTa-1E90FF?style=for-the-badge)
