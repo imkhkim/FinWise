@@ -1,8 +1,5 @@
-# React + Vite
+## React for Fin￦i$E Services
+Developed by Soohyun Kwon, Keumhwan Kim, Seohyun Park, Junhyeok Lee, Changhee Cho, and Sihyun Cha from the 5th cohort of Korea University INISW Academy.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### License
+MIT License.
