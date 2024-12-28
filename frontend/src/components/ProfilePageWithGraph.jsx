@@ -33,12 +33,12 @@ const ProfilePage = () => {
   const [graphUpdateTrigger, setGraphUpdateTrigger] = useState(0);
 
   const articleItems = [
-    { id: 'record1', name: '최근 본 기사', Icon: Clock },
-    { id: 'record2', name: '스크랩한 기사', Icon: Bookmark },
+    // { id: 'record1', name: '최근 본 기사', Icon: Clock },
+    { id: 'record1', name: '스크랩한 기사', Icon: Bookmark },
   ];
 
   const menuItems = [
-    { id: 'myGraph', name: 'My 지식그래프', Icon: Network },
+    { id: 'myGraph', name: '개인 그래프', Icon: Network },
     { id: 'general', name: '인과 or 상관성', Icon: TrendingUp },
     { id: 'life', name: '변화 & 추세', Icon: ShoppingCart },
     { id: 'global', name: '시장 및 거래', Icon: Globe },
@@ -90,8 +90,8 @@ const ProfilePage = () => {
                   <div className="flex items-center gap-3">
                     <img src="/user-profile.png" alt="Profile" className="w-10 h-10 rounded-full" />
                     <div>
-                      <div className="font-medium">Levi Ackerman</div>
-                      <div className="text-sm text-gray-500">Survey Corps Special Operations Squad</div>
+                      <div className="font-medium">Administrator</div>
+                      <div className="text-sm text-gray-500">KU INISW Academy</div>
                     </div>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ const ProfilePage = () => {
           <div className="flex items-center gap-3 px-4">
             <img src="/user-profile.png" alt="Profile" className="w-10 h-10 rounded-full" />
             <div>
-              <div className="font-semibold text-sm">USER_NAME</div>
-              <div className="text-xs text-gray-500">Administrator</div>
+              <div className="font-semibold text-sm">Administrator</div>
+              <div className="text-xs text-gray-500">KU INISW Academy</div>
             </div>
           </div>
 
@@ -156,7 +156,7 @@ const ProfilePage = () => {
 
           {/* Navigation menu */}
           <div className="space-y-6">
-            {/* My 지식그래프 menu item */}
+            {/* 개인 그래프 menu item */}
             <div
               onClick={() => setActiveSection('myGraph')}
               className={`flex items-center gap-3 px-4 py-3 rounded-lg cursor-pointer ${
@@ -166,7 +166,7 @@ const ProfilePage = () => {
               }`}
             >
               <Network className="w-4 h-4" />
-              <div className="text-sm font-medium">My 지식그래프</div>
+              <div className="text-sm font-medium">개인 그래프</div>
             </div>
 
             {/* 기사 목록 section */}
@@ -192,15 +192,15 @@ const ProfilePage = () => {
         isSidebarOpen ? 'ml-64' : 'ml-0'
       } pt-16 p-6`}>
         {/* Header Card */}
-        <div className="bg-white rounded-2xl shadow-sm p-6 mb-6 mt-5">
+        {/* <div className="bg-white rounded-2xl shadow-sm p-6 mb-6 mt-5"> */}
           
           {/* <div className="text-[#00c853] text-xl font-bold mb-4">Your Personal Knowledge Management Page</div>
           <div className="text-sm text-gray-600">
             뭐 쓰징
           </div> */}
-        </div>
+        {/* </div> */}
         {/* Graph Card */}
-        <div className="bg-white rounded-2xl shadow-sm p-6">
+        <div className="bg-white rounded-2xl shadow-sm p-6 mt-5">
           <GraphVisualization type={activeSection} updateTrigger={graphUpdateTrigger} />
         </div>
       </div>

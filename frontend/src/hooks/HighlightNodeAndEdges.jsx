@@ -1,3 +1,4 @@
+// HighlightNodeAndEdges.jsx
 export function highlightNodeAndEdges(graphData, svg, selectedNode) {
     const graphContainer = svg.select(".graph-container");
 

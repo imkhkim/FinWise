@@ -48,27 +48,32 @@ const MyGraph = ({ updateTrigger }) => {
                 hypergraphData.edges.forEach(edge => {
                     const [sourceId, targetId] = edge.nodes.sort();
                     const edgeKey = `${sourceId}-${targetId}`;
-
+                
                     if (!combinedEdges.has(edgeKey)) {
                         combinedEdges.set(edgeKey, {
                             source: sourceId,
                             target: targetId,
-                            weight: 1,
+                            weight: 1,  // 초기 weight는 카테고리가 있을 경우 1, 없을 경우 0
                             articles: [articleId],
                             descriptions: [edge.description],
-                            categories: [edge.category]
+                            categories: edge.category ? [edge.category] : []
                         });
                     } else {
                         const existingEdge = combinedEdges.get(edgeKey);
-                        existingEdge.weight++;
                         if (!existingEdge.articles.includes(articleId)) {
                             existingEdge.articles.push(articleId);
+                        }
+                        if (edge.description && !existingEdge.descriptions.includes(edge.description)) {
+                            existingEdge.descriptions.push(edge.description);
                         }
                         if (edge.category && !existingEdge.categories.includes(edge.category)) {
                             existingEdge.categories.push(edge.category);
                         }
+                        // weight를 categories 배열의 길이로 설정
+                        existingEdge.weight = existingEdge.categories.length;
                     }
-
+                
+                    // 노드의 connections 업데이트 로직은 유지
                     if (combinedNodes.has(sourceId)) {
                         const sourceNode = combinedNodes.get(sourceId);
                         sourceNode.connections++;

@@ -12,8 +12,8 @@ const ArticleSelection = ({
   const [dynamicMenuItems, setDynamicMenuItems] = useState([]);
   
   const staticItems = [
-    { id: 'record1', name: '최근 본 기사', Icon: Clock },
-    { id: 'record2', name: '스크랩한 기사', Icon: Bookmark }
+    // { id: 'record1', name: '최근 본 기사', Icon: Clock },
+    { id: 'record1', name: '스크랩한 기사', Icon: Bookmark }
   ];
 
   useEffect(() => {
@@ -90,7 +90,7 @@ const ArticleSelection = ({
           {allItems.map(item => (
             <div
               key={item.id}
-              className={`flex items-center justify-between px-4 py-3 rounded-lg cursor-pointer transition-colors ${
+              className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${
                 activeSection === item.id
                   ? 'text-[#00c853] bg-[#e8f5e9]'
                   : 'text-gray-600 hover:bg-[#e8f5e9]'
