@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python%203.8.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![KoalaNLP](https://img.shields.io/badge/KoalaNLP-FF4500?style=for-the-badge)
-![HGNN](https://img.shields.io/badge/HGNN-4CAF50?style=for-the-badge)
+![Hyper-GNN](https://img.shields.io/badge/HGNN-4CAF50?style=for-the-badge)
 ![TF-IDF](https://img.shields.io/badge/TF--IDF-FFDD44?style=for-the-badge)
 ![KeyBERT](https://img.shields.io/badge/KeyBERT-8E44AD?style=for-the-badge)
 ![DeBERTa](https://img.shields.io/badge/DeBERTa-1E90FF?style=for-the-badge)
@@ -30,7 +30,8 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 사용자에게 직관적인 방식으로 경제 관련 정보를 chrome exetension을 통해 제공하는 시스템입니다. 
 이 프로젝트는 최신 기술 스택인 FastAPI, React, MongoDB 및 D3.js를 활용하여 설계되었습니다.
 
-![image](https://github.com/user-attachments/assets/56c42a1c-ce62-4a06-905a-49335d9004c0)
+<img width="327" alt="image" src="https://github.com/user-attachments/assets/cf3c586e-07a8-43ae-ae2b-2a0326788469" />
+
 ## Team
 FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
 
