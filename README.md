@@ -32,22 +32,15 @@ FinWise는 Linear Hyper-GNN을 이용하여 경제 기사 데이터를 수집, �
 
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/cf3c586e-07a8-43ae-ae2b-2a0326788469" />
 
-## Team
-FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
+---
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/soosookentelmanis"><img src="https://avatars.githubusercontent.com/u/150493527?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 권수현</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/imkhkim"><img src="https://avatars.githubusercontent.com/u/101717060?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 김금환</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/rosey418"><img src="https://avatars.githubusercontent.com/u/126850666?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 박서현</b></sub></a><br /></td>
-     <tr/>
-      <td align="center"><a href="https://github.com/leejoon2067"><img src="https://avatars.githubusercontent.com/u/77916205?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 이준혁</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/ntbboi"><img src="https://avatars.githubusercontent.com/u/175026543?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 조창희</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/csihyeon9"><img src="https://avatars.githubusercontent.com/u/110538039?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 차시현</b></sub></a><br /></td>
-    </tr>
-  </tbody>
-</table>
+## 시연 영상
+
+[![이미지 텍스트](https://github.com/user-attachments/assets/57c423db-7e67-41d5-9ff7-465db7b271ff)](https://drive.google.com/file/d/1DUgMFtqvviipZ7w5Z_YDedYqxwNROv77/view?usp=drive_link)
+
+_이미지를 클릭하면 시연 영상 링크로 이동합니다. 새 탭에서 열려면 Ctrl+클릭 (Mac: Cmd+클릭) 또는 우클릭 후 '새 탭에서 열기'를 선택하세요._
+
+---
 
 ## 시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/9c546fbf-ac15-4f7d-9ea6-85be1222f5e9)
@@ -206,6 +199,25 @@ npm start
 3. 변경 사항을 커밋합니다 (`git commit -m 'Add 새로운기능'`).
 4. 브랜치에 푸시합니다 (`git push origin feature/새로운기능`).
 5. Pull Request를 생성합니다.
+
+---
+
+## Team
+FinWise 크롬 확장 프로그램은 고려대학교 지능정보 소프트웨어 아카데미 5기 1조에 의해 개발되었습니다.
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/soosookentelmanis"><img src="https://avatars.githubusercontent.com/u/150493527?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 권수현</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/imkhkim"><img src="https://avatars.githubusercontent.com/u/101717060?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 김금환</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/rosey418"><img src="https://avatars.githubusercontent.com/u/126850666?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 박서현</b></sub></a><br /></td>
+     <tr/>
+      <td align="center"><a href="https://github.com/leejoon2067"><img src="https://avatars.githubusercontent.com/u/77916205?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 이준혁</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/ntbboi"><img src="https://avatars.githubusercontent.com/u/175026543?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 조창희</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/csihyeon9"><img src="https://avatars.githubusercontent.com/u/110538039?v=4" width="100px;" alt=""/><br /><sub><b>팀원 : 차시현</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
